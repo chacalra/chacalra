@@ -19,30 +19,27 @@ I also have professional experience with **SAP HCM / ABAP** in enterprise enviro
 
 ### [Sales Reconciliation Automation](https://github.com/chacalra/sales-reconciliation-automation)
 
-A Python workflow for consolidating heterogeneous sales exports into auditable business reports.
+Python automation for consolidating heterogeneous sales exports into auditable business reports.
 
-**What it demonstrates**
+**Signals:** configurable CSV/XLSX ingestion · validation and deduplication · FX API with validated cache fallback · Excel/CSV reporting · reconciliation guarantees · pytest · Ruff · GitHub Actions
 
-- CSV/XLSX ingestion and normalization
-- record validation and duplicate detection
-- REST-based FX conversion with validated local fallback
-- Excel and CSV reporting
-- reconciliation guarantees
-- pytest + Ruff + GitHub Actions
-- defensive handling of malformed input and spreadsheet formula injection
+### [Portrait Retouching Engine](https://github.com/chacalra/portrait-engine)
+
+Deterministic portrait-retouching SDK where machine learning performs face perception and classical image processing performs the edits.
+
+**Signals:** MediaPipe perception · reusable face analysis · pure image-processing tools · identity-preservation diagnostics · CLI/library/FastAPI interfaces · extensive tests · CI
+
+### [Carwash Management Platform](https://github.com/chacalra/carwashV2)
+
+Multi-tenant business-management platform with a FastAPI/PostgreSQL backend and Astro/React frontend.
+
+**Signals:** tenant isolation · RBAC · SQLAlchemy/Alembic · OpenAPI-generated frontend types · backend/frontend tests · TypeScript checks · Docker · separate CI and deployment workflows
 
 ### [OCR Evaluation Pipeline](https://github.com/chacalra/ocr-aoc-uc2025)
 
-A computer-vision and OCR evaluation project comparing PaddleOCR and Tesseract on image text-recognition tasks.
+Computer-vision and OCR evaluation project comparing PaddleOCR and Tesseract with reproducible ground-truth benchmarking.
 
-**What it demonstrates**
-
-- OpenCV preprocessing
-- word- and character-level bounding boxes
-- reading-order reconstruction
-- ground-truth comparison
-- reproducible benchmark outputs
-- explicit documentation of limitations and experimental scope
+**Signals:** OpenCV preprocessing · word/character boxes · reading-order reconstruction · benchmark outputs · documented experimental limitations
 
 ## Engineering approach
 
